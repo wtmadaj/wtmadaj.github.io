@@ -85,9 +85,9 @@ p.header-icon-red {
   padding: 15px;
 }
 .deck-column {
-  width: 20%;
+  /*width: 20%;
   padding: 15px;
-  float: right;
+  float: right;*/
 }
 .dealer-column, .player-column {
   float: left;
