@@ -1,0 +1,96 @@
+html{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: calc(.8em + .5vw);
+    padding: 5px;
+}
+body{
+    background-color: #343434;
+    color: white;
+}
+hr {
+    border-color: rgb(73, 73, 73);
+    border-top: none;
+}
+#page-header {
+    font-size: 3.5vw;
+}
+#main-nav {
+    font-size: 1.6vw;
+}
+.main-button {
+    color: white;
+    /*text-decoration: none;*/
+    /*border: 1px solid rgb(0, 156, 255);*/
+    /*background-color: #00586e;*/
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin: 8px;
+    vertical-align: center;
+}
+.main-button:hover {
+    background-color: rgb(0, 156, 255);
+}
+.btn-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+#left-panel {
+    font-size: 1.2vw;
+    width: 65%;
+    float: left;
+    margin-left: 10px;
+}
+#right-panel {
+    font-size: 1.2vw;
+    width: 25%;
+    float: right;
+    margin-right: 10px;
+}
+.experience-section {
+    letter-spacing: .1vw;
+    margin: 30px 0;
+}
+.details-section {
+    letter-spacing: .1vw;
+    margin-bottom: 30px;
+    position: relative;
+}
+.experience-header {
+    font-variant: small-caps;
+    overflow: hidden;
+    color: rgb(0, 156, 255);
+}
+.experience-header:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 20px;
+    border-top: 1px solid rgb(0, 156, 255);
+}
+.details-header {
+    font-variant: small-caps;
+    overflow: hidden;
+    color: rgb(0, 156, 255);
+}
+.details-header:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 20px;
+    border-top: 1px solid rgb(0, 156, 255);
+}
+.job-title-company {
+    line-height: .5vw;
+    letter-spacing: .15vw;
+}
+.job-dates-location {
+    font-weight: 400;
+}
