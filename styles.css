@@ -108,3 +108,12 @@ hr {
 .tag-text {
     display: inline;
 }
+.dev-stage {
+    font-variant: all-small-caps;
+    font-size: smaller;
+    display: initial;
+    color: rgb(43, 238, 43);
+    padding: 5px;
+    border-radius: 3px;
+    vertical-align: top;
+}
