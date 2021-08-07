@@ -123,6 +123,8 @@ hr {
     vertical-align: top;
 }
 @media only screen and (max-width: 899px) {
+    #page-header {font-size: 5vw;}
+    .main-button {font-size: 3vw;}
     #left-panel {
         width: 100%;
         margin-left: revert;
@@ -131,4 +133,6 @@ hr {
         width: 100%;
         margin-right: revert;
     }
+    .experience-header, .details-header {font-size: 4vw;}
+    .experience-section, .details-section {font-size: 2vw;}
 }
