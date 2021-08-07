@@ -149,4 +149,8 @@ hr {
     }
     .experience-header, .details-header {font-size: 4vw;}
     .experience-section, .details-section {font-size: 2vw;}
+    .experience-section .main-button {
+        display: inline;
+    }
+    .fa { font-size: 3.5vw; }
 }
