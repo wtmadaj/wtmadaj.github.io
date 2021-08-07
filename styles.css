@@ -29,6 +29,7 @@ hr {
     /*padding: 10px 15px 7px 15px;*/
     padding: 1vw;
     margin: 8px;
+    font-size: 1.6vw;
 }
 #active-button {
     background-color: transparent;
@@ -41,6 +42,7 @@ hr {
     margin-right: 5px;
     font-size: 2.3vw;
     vertical-align: text-bottom;
+    /*min-font-size: 1.4vw;*/
 }
 #left-panel {
     font-size: 1.2vw;
