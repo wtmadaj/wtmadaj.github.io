@@ -30,6 +30,7 @@ hr {
     padding: 1vw;
     margin: 8px;
     font-size: 1.6vw;
+    display: inline-block;
 }
 #active-button {
     background-color: transparent;
@@ -106,7 +107,8 @@ hr {
 }
 .tag {
     display: inline;
-    vertical-align: middle
+    vertical-align: middle;
+    width: 3vw;
 }
 .tool-tag {
     display: inline-block;
@@ -130,7 +132,9 @@ hr {
     color: rgb(43, 238, 43);
     padding: 5px;
     border-radius: 3px;
-    vertical-align: top;
+    vertical-align: super;
+    position: relative;
+    top: -1vw;
 }
 @media only screen and (max-width: 899px) {
     #page-header {font-size: 5vw;}
