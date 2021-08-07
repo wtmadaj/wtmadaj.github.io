@@ -106,9 +106,19 @@ hr {
 }
 .tag {
     display: inline;
-    width: 40px;
-    height: 40px;
+    vertical-align: middle
+}
+.tool-tag {
+    display: inline-block;
     vertical-align: middle;
+    color: black;
+    background: white;
+    padding: 2px 5px 3px 5px;
+    margin: 4px;
+}
+.tool-tag img {
+    width: 1.8vw;
+    vertical-align: text-bottom;
 }
 .tag-text {
     display: inline;
