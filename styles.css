@@ -30,6 +30,7 @@ hr {
     padding: 1vw;
     margin: 8px;
     font-size: 1.6vw;
+    display: inline-block;
 }
 #active-button {
     background-color: transparent;
