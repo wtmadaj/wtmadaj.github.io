@@ -122,3 +122,13 @@ hr {
     border-radius: 3px;
     vertical-align: top;
 }
+@media only screen and (max-width: 899px) {
+    #left-panel {
+        width: 100%;
+        margin-left: revert;
+    }
+    #right-panel {
+        width: 100%;
+        margin-right: revert;
+    }
+}
