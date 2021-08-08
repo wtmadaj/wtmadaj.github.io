@@ -105,7 +105,6 @@ hr {
     border-top: 1px solid rgb(0, 156, 255);
 }
 .job-title-company {
-    line-height: .5vw;
     letter-spacing: .15vw;
 }
 .job-dates-location {
