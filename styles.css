@@ -136,6 +136,7 @@ hr {
     font-size: smaller;
     display: initial;
     color: rgb(43, 238, 43);
+    background-color: black;
     padding: 5px;
     border-radius: 3px;
     vertical-align: super;
