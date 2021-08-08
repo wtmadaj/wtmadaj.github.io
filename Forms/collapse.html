@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="collapse-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="basic.html">Basic</a></li>
+		<li><a href="SideNav.html">SideNav</a></li>
+		<li><a href="multistep.html">Multi-Step</a></li>
+		<li><a class="active" href="collapse.html">Collapse</a></li>
+	</ul>
+</head>
+
+<body>
+
+	<div style="margin-left:25%; padding:16px">
+		<h2>Collapsible Form</h2>
+	</div>
+
+<!-- Type: form field type, id: for styling, name: for form submission -->
+<!-- Added margin-left to accommodate side nav -->
+	<form style="margin-left:25%"> 
+		<button type="button" class="collapsible">Basic Info</button>
+		<div class="content">
+			<label for="first-name">First Name:</label>
+			<input type="text" id="first-name" name="first-name" placeholder="First Name">
+			<label for="last-name">Last Name:</label>
+			<input type="text" id="last-name" name="last-name" placeholder="Last Name"><br><br>
+		</div><br><br>
+
+		<button type="button" class="collapsible">Next Section</button>
+		<div class="content">
+			<div class="custom-select">
+				<label for="gender">Gender</label>
+				<select id="gender" name="gender">
+					<option value="0">Select Gender</option>
+					<option value="1">Male</option>
+					<option value="2">Female</option>
+					<option value="3">Other</option>
+				</select>
+			</div>
+		<script src="select-script.js"></script>
+		</div><br><br>
+		
+
+		<button type="button" class="collapsible">Next Section</button>
+		<div class="content">
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+		</div><br><br>
+
+		<button type="button" class="collapsible">Next Section</button>
+		<div class="content">
+			<textarea id="description" name="description" rows="15" cols="50" placeholder="Describe yourself"></textarea><br>
+		</div>
+		<input type="submit">
+	</form><br><br>
+
+	<button onclick="topFunction()" id="scroll-to-top-btn" title="Go to top">Top</button>
+
+	<script src="collapse-script.js"></script>
+	<script src="totopbtn-script.js"></script>
+
+	<footer>
+		<h2>Fonts: Playfair Display & Playfair Display SC</h2>
+	</footer>
+</body>
+</html>
+

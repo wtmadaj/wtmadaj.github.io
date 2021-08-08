@@ -132,11 +132,14 @@ hr {
 }
 .dev-stage {
     font-variant: all-small-caps;
-    font-size: smaller;
+    font-size: small;
+    font-weight: 700;
     display: initial;
     color: rgb(43, 238, 43);
     background-color: black;
-    padding: 5px;
+    background-color: rgb(43, 238, 43);
+    color: black;
+    padding: 1px 4px 4px 4px;
     border-radius: 3px;
     vertical-align: super;
     position: relative;
@@ -221,5 +224,7 @@ input:checked + .slider:before {
     .toggle-text-before, .toggle-text-after {
         font-size: 2.8vw;
     }
-    .tool-tag img { vertical-align: middle;}
+    .tool-tag img {
+        width: 3vw;
+    }
 }
