@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="basic-style.css">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div class="topnav">
+			<a href="index.html">Home</a>
+			<a class="active" href="basic.html">Basic</a>
+			<a href="SideNav.html">SideNav</a>
+			<a href="multistep.html">Multi-Step</a>
+			<a href="collapse.html">Collapse</a>
+		</div>
+
+		<div style="padding:16px">
+			<h2>Basic Form</h2>
+		</div>
+
+		<!-- Type: form field type, id: for styling, name: for form submission -->
+		<form>
+			<label for="first-name">First Name:</label>
+			<input type="text" id="first-name" name="first-name" placeholder="First Name">
+			<label for="last-name">Last Name:</label>
+			<input type="text" id="last-name" name="last-name" placeholder="Last Name"><br><br>
+
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label><br><br>
+
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+			<textarea id="description" name="description" rows="15" cols="50" placeholder="Describe yourself"></textarea><br>
+			<input type="submit">
+		</form>
+		
+		<div>
+			<footer>
+				<h2 style="font-size:25px;">Font: Libre Baskerville</h2>
+			</footer>
+		</div>
+
+	</body>
+</html>
+

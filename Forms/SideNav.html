@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="basic.html">Basic</a></li>
+		<li><a class="active" href="SideNav.html">SideNav</a></li>
+		<li><a href="multistep.html">Multi-Step</a></li>
+		<li><a href="collapse.html">Collapse</a></li>
+	</ul>
+</head>
+
+<body>
+
+	<div style="margin-left:25%; padding:16px">
+		<h2>Basic Form</h2>
+	</div>
+
+<!-- Type: form field type, id: for styling, name: for form submission -->
+<!-- Added margin-left to accommodate side nav -->
+	<form style="margin-left:25%"> 
+		<label for="first-name">First Name:</label>
+		<input type="text" id="first-name" name="first-name" placeholder="First Name">
+		<label for="last-name">Last Name:</label>
+		<input type="text" id="last-name" name="last-name" placeholder="Last Name"><br><br>
+
+		<div class="custom-select">
+			<label for="gender">Gender</label>
+			<select id="gender" name="gender">
+				<option value="0">Select Gender</option>
+				<option value="1">Male</option>
+				<option value="2">Female</option>
+				<option value="3">Other</option>
+			</select>
+		</div><br><br>
+		<script src="select-script.js"></script> <!-- Script for the custom select div -->
+
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+		<textarea id="description" name="description" rows="15" cols="50" placeholder="Describe yourself"></textarea><br>
+		<input type="submit">
+	</form>
+
+	<footer>
+		<h2 style="font-size:25px;">Font: Montserrat</h2>
+	</footer>
+
+</body>
+</html>
+
