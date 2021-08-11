@@ -6,9 +6,6 @@ button.onclick = function() {
 }
 function toggle() {
     if(count%2!=0) {
-        // document.body.style.cssText = 'background: rgb(249,245,245); ' +
-        //     'background: radial-gradient(circle, rgba(249,245,245,1) 0%, rgba(214,213,213,1) 52%);color: black;';
-        // document.body.style.cssText = 'background: white; color: black;';
         document.body.style.cssText = 'background: #DEDEDE;\n' +
             'background: -webkit-radial-gradient(circle farthest-corner at center center, #DEDEDE 0%, #FFFAFA 55%);\n' +
             'background: -moz-radial-gradient(circle farthest-corner at center center, #DEDEDE 0%, #FFFAFA 55%);\n' +
