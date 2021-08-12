@@ -1,3 +1,25 @@
+/*** Dark Mode Theme ***/
+:root, [data-theme="default"] {
+    --body-bg: rgb(42, 42, 42);
+    --body-bg2: -webkit-radial-gradient(circle farthest-corner at center center, #DEDEDE 0%, #FFFAFA 55%);
+    --body-bg2: -moz-radial-gradient(circle farthest-corner at center center, #DEDEDE 0%, #FFFAFA 55%);
+    --body-bg2: radial-gradient(circle farthest-corner at center center, #DEDEDE 0%, #FFFAFA 55%);
+    --masonry-item-bg: black;
+    --text-color: white;
+    --active-btn-color: white;
+    --tool-tag-box-shadow: 2px 2px 2px 1px #525252;
+
+}
+/* Light Mode Theme */
+[data-theme="light"] {
+    --body-bg: #ececec;
+    --body-bg2: radial-gradient(circle, rgba(52,52,52,1) 0%, rgba(6,6,6,1) 52%);
+    --masonry-item-bg: white;
+    --text-color: black;
+    --active-btn-color: rgb(0, 131, 213);
+    --tool-tag-box-shadow: 2px 2px 2px 1px #cfcbcb;
+}
+
 html{
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
@@ -5,9 +27,8 @@ html{
     padding: 5px;
 }
 body{
-    background: rgb(52,52,52);
-    background: radial-gradient(circle, rgba(52,52,52,1) 0%, rgba(6,6,6,1) 52%);
-    color: white;
+    background: var(--body-bg);
+    color: var(--text-color);
 }
 hr {
     border-color: rgb(73, 73, 73);
@@ -41,6 +62,7 @@ hr {
 }
 #active-button {
     background-color: transparent;
+    color: var(--active-btn-color);
 }
 .main-button:hover {
     background-color: rgb(0, 156, 255);
@@ -122,7 +144,7 @@ hr {
     background: white;
     padding: 2px 5px 3px 5px;
     margin: 4px;
-    /*box-shadow: 2px 2px 2px 1px #cfcbcb;*/
+    box-shadow: var(--tool-tag-box-shadow);
     border-radius: 2px;
 }
 .tool-tag img {
@@ -236,7 +258,6 @@ input:checked + .slider:before {
 .masonry-item {
     filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, .3));
     transition: filter .25s ease-in-out;
-    /*border: 1px solid rgb(0, 156, 255)*/
 }
 .masonry-item:hover {
     filter: drop-shadow(0px 5px 5px rgba(255, 255, 255, 0.3));
@@ -245,8 +266,8 @@ input:checked + .slider:before {
     overflow: hidden;
 }
 .masonry-item {
-    color: white;
-    background-color: rgba(8, 22, 43, 0.74);
+    color: var(--text-color);
+    background-color: var(--masonry-item-bg);
 }
 .masonry-title, .masonry-description {
     margin: 0;
@@ -261,7 +282,6 @@ input:checked + .slider:before {
 .masonry-description {
     padding: 1.5vw;
     font-size: 1.0rem;
-    /*border-top: 1px solid rgba(0, 0, 0, .05);*/
 }
 .masonry-footer {
     font-size: .75em;

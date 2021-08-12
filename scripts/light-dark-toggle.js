@@ -29,6 +29,7 @@ function toggle() {
         }
     }
 }
+
 //TODO: References for future improvements
 //https://www.simpleweblearning.com/how-to-create-light-dark-mode-toggle-with-css-and-javascript/
 //https://codepen.io/chen1223/pen/PobxwMj
