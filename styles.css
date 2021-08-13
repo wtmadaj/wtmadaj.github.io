@@ -246,12 +246,12 @@ input:checked + .slider:before {
     grid-gap: 10px;
     grid-auto-rows: 0;
 }
-@media only screen and (max-width: 1424px) and (min-width: 910px) {
+@media only screen and (max-width: 1599px) and (min-width: 910px) {
     .masonry {
         grid-template-columns: repeat(2, minmax(100px,1fr));
     }
 }
-@media only screen and (min-width: 1425px) {
+@media only screen and (min-width: 1600px) {
     .masonry {
         grid-template-columns: repeat(3, minmax(100px,1fr));
     }

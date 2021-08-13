@@ -40,7 +40,6 @@ function toggle() {
 //     event.target.checked ? container.removeAttribute('data-theme') : container.setAttribute('data-theme', 'light');
 // });
 
-//TODO: References for future improvements
 // https://harlemsquirrel.github.io/css/javascript/2017/12/08/dark-light-mode-persistent-switcher.html
 // https://www.simpleweblearning.com/how-to-create-light-dark-mode-toggle-with-css-and-javascript/
 // https://codepen.io/chen1223/pen/PobxwMj
